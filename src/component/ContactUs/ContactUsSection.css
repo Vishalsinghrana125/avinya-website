@@ -1,0 +1,126 @@
+.ContactUsSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3% 10%;
+}
+.contactsection{
+  display: flex;
+}
+.contact-healine{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ContactUsSection-hedlin-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 24px;
+  /* identical to box height, or 75% */
+text-align: center;
+  padding: 3% 0%;
+
+  color: #000000;
+}
+
+.ContactUsSection-div-2 {
+  display: flex;
+  flex-direction: column;
+ 
+  min-width: 400px;
+  max-width: 35rem;
+  background: #ffffff;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ContactUsSection-hedline2 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 50px;
+  /* identical to box height, or 156% */
+
+  text-transform: capitalize;
+
+  color: #5956e9;
+
+  padding-bottom: 2%;
+}
+
+.demo-textarea {
+  background: #ffffff;
+  border: 1px solid #6c6c72;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  width: 100%;
+  height: 10rem;
+
+  margin-bottom: 6%;
+  padding: 3%;
+}
+
+
+.contact-box{
+    display: flex;
+  margin: 10px 0px;
+    /* max-width: 100% !important; */
+}
+
+.ContactUsSection-div-1{
+  display: flex;
+  flex-direction: column;  
+  padding-top: 5%;
+  min-width: 400px;
+  justify-content: center;
+}
+
+
+.ContactUsSection-icon-box {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 2%;
+  
+  
+  
+}
+
+.ContactUsSection-icon-box img{
+  text-align: center;
+}
+
+.ContactUsSection-h5{
+    padding-left: 3%;
+    
+    width: 40rem;
+}
+
+.row{
+  display: flex;
+ align-items: center;
+}
+.leftctn-head{
+  text-align: center;
+}
+
+.submit-btn{
+  text-align: center;
+}
+.demo-submit-btn{
+  text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+  .contactsection{
+    flex-direction: column;
+  }
+
+}

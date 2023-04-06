@@ -1,0 +1,13 @@
+.part-btn-section{
+    
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+    min-width: 400px;
+}
+
+.part-btn{
+    background-color: #FEBA01;
+    padding: 15px;
+    
+}

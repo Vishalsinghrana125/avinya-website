@@ -1,0 +1,21 @@
+.participate-section{
+    display:flex ;
+    flex-direction:column ;
+    margin: 10px 0px;
+    margin-left: 20px;
+}
+
+.part-item{
+    display:flex ;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
+
+@media screen and (max-width:450px) {
+    .participate-section{
+        min-width: 400px;
+    }
+}

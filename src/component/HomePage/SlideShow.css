@@ -1,0 +1,35 @@
+.SlideShow{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.slideShow-title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 125px;
+/* identical to box height, or 347% */
+
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+.alice-carousel__prev-btn, .alice-carousel__next-btn{
+    display: none !important;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    
+    .SlideShow{
+        min-width: min-content;
+    }
+}

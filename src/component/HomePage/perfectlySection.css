@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.PerSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: #fff;
+    background-color: #120D69;
+    text-transform: uppercase;
+    min-width: fit-content;
+}
+
+.perbody{
+    width: 30%;
+    text-align: center;
+}
+
+.PerSection h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.per-img{
+    width: 400px;
+}

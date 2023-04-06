@@ -1,0 +1,83 @@
+<Navbar className="navbar" bg="light" expand="lg">
+      <Navbar.Brand href="#home">
+        <img
+          src={logo}
+          width="90"
+          height="100"
+          className="d-inline-block align-top"
+          alt="React Bootstrap logo"
+        />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto nav-links">
+          <Link className="nav-link-title" to={"/"}>
+            Home
+          </Link>
+          <Link className="nav-link-title" to={"/about"}>
+            About
+          </Link>
+          <Link className="nav-link-title" to={"#"}>
+            Features
+          </Link>
+          <Link className="nav-link-title" href="#Blog">
+            Blog
+          </Link>
+          <Link className="nav-link-title" to={"/Contact-us"}>
+            Contacts
+          </Link>
+          <Link className="nav-link-title" to={"/partner-program"}>
+           Partner Program
+          </Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <nav>
+      
+    <div className="logo">
+        <img src={logo} alt="Logo" />
+        </div>
+    <ul className="menu">
+        <li><Link className="nav-link-title" to={"/"}>
+            Home
+          </Link></li>
+        <li><Link className="nav-link-title" to={"/about"}>
+            About
+          </Link></li>
+
+        
+            <li>  <Link className="nav-link-title" to={"/features"}>
+            Features
+          </Link>  </li>
+           
+        <li><Link className="nav-link-title" to={"/Contact-us"}>
+            Contacts Us
+          </Link></li>
+        <li><Link className="nav-link-title" to={"/partner-program"}>
+           Partner Program
+          </Link></li>
+
+          <li> <Link className="nav-link-title" to={"/join-now"}>
+            Join Now
+          </Link>  </li>
+
+    </ul>
+
+</nav>
